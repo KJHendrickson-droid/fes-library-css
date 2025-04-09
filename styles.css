@@ -282,7 +282,7 @@ FEATURED BOOKS
   padding-right: 6px;
   color: #bfbfbf;
 }
- /* 
+/* 
  
  EXPLORE BOOKS 
  
@@ -299,7 +299,20 @@ footer {
   color: white;
 }
 
+.footer__logo {
+  display: flex;
+}
+
 .footer__logo--img {
   width: 160px;
   filter: grayscale(1) invert(1);
+}
+
+.footer__link,
+.footer__copyright {
+  color: #fff;
+}
+
+.footer__list {
+  margin: 20px 0 24px 0;
 }
