@@ -126,7 +126,7 @@ button:active {
 
 .header__image--wrapper {
   padding: 20px;
-  z-index: 2;
+  z-index: 50;
 }
 
 .container {
@@ -174,7 +174,7 @@ HIGHLIGHT
   z-index: 1;
   background-size: cover;
   background-repeat: no-repeat;
-  transform: translateY(100%);
+  transform: translateY(100px) rotate(180deg);
 }
 
 .highlight__wrapper {
@@ -211,4 +211,15 @@ HIGHLIGHT
 .highlight__subtitle {
   font-size: 20px;
   margin-bottom: 16px;
+}
+
+/*
+
+FEATURES 
+
+*/
+
+#features {
+  height: 1000px;
+  background-color: rgba(115, 66, 214, 0.1);
 }
