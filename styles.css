@@ -150,6 +150,10 @@ button:active {
   align-items: center;
 }
 
+.no-cursor {
+  cursor: not-allowed;
+}
+
 /* 
 
 HIGHLIGHT 
@@ -286,4 +290,16 @@ FEATURED BOOKS
 
 #explore {
   background-color: rgba(115, 66, 214, 0.1);
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #242424;
+  color: white;
+}
+
+.footer__logo--img {
+  width: 160px;
+  filter: grayscale(1) invert(1);
 }
