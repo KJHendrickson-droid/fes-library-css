@@ -220,7 +220,7 @@ FEATURED BOOKS
 
 */
 
-#features {
+#featured {
   padding: 8vw;
   background-color: rgba(115, 66, 214, 0.1);
 }
@@ -280,11 +280,12 @@ LATEST BOOKS
 
 #latest {
   padding: 8vw;
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: white;
 }
 
 .books {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .book {
@@ -323,6 +324,7 @@ LATEST BOOKS
   margin-bottom: 8px;
   color: #fabf2a;
 }
+
 .book__price--normal {
   text-decoration: none;
   padding-right: 6px;
